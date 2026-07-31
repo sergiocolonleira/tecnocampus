@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecnoCampus Formación | Cursos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
@@ -14,17 +17,38 @@
         <h1>TecnoCampus Formación</h1>
         <p>Formación informática diferencial</p>
     </header>
-
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="ciclos.html">Ciclos FP</a>
-        <a href="cursos.html">Cursos</a>
-        <a href="horarios.html">Horarios</a>
-        <a href="contacto.html">Contacto</a>
+      <nav>
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li class="desplegable">
+                <a href="ciclos.html">Ciclos formativos</a>
+                <ul class="submenu">
+                    <li><a href="ciclos.html#smr">SMR</a></li>
+                    <li><a href="ciclos.html#dam">DAM</a></li>
+                    <li><a href="ciclos.html#daw">DAW</a></li>
+                    <li><a href="ciclos.html#asir">ASIR</a></li>
+                </ul>
+            </li>
+            <li class="desplegable">
+                <a href="cursos.html">Cursos</a>
+                <ul class="submenu">
+                    <li><a href="cursos.html#html-css">HTML y CSS</a></li>
+                    <li><a href="cursos.html#python-java">Programación</a></li>
+                    <li><a href="cursos.html#ciberseguridad">Ciberseguridad</a></li>
+                    <li><a href="cursos.html#sql-bases-datos">Bases de datos</a></li>
+                    <li><a href="cursos.html#linux">Linux</a></li>
+                    <li><a href="cursos.html#inteligencia-artificial">Inteligencia artificial</a></li>
+                </ul>
+            </li>
+            <li><a href="horarios.html">Horarios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
     </nav>
 
     <main>
-        <section>
+        <section class="cabecera-pagina">
             <img src="img/CabeceraCiclos.jpg" alt="Oferta de cursos de informática">
 
             <h2>Cursos de especialización</h2>
@@ -33,8 +57,8 @@
                 Amplía tus conocimientos con cursos prácticos y orientados al mundo laboral. Consulta nuestra oferta y encuentra la formación que mejor se adapta a tus intereses.
             </p>
         </section>
-        <section>
-            <article>
+        <section class="oferta">
+            <article id="html-css">
                 <h3>HTML y CSS</h3>
                     <dl>
                         <dt>Duración:</dt>
@@ -44,7 +68,7 @@
                     </dl>
                  <p>Aprende a crear y dar estilo a páginas web desde cero mediante HTML y CSS. El curso incluye estructura de contenidos, diseño visual, formularios y adaptación básica a distintos dispositivos.</p>
             </article>
-            <article>
+            <article id="python-java">
                 <h3>Programación básica: Python y Java</h3>
                     <dl>
                         <dt>Duración:</dt>
@@ -54,7 +78,7 @@
                     </dl>
                  <p> Domina los fundamentos de Java y Python, trabajando con variables, condicionales, bucles, funciones y estructuras de datos mediante ejercicios prácticos.</p>
             </article>
-            <article>
+            <article id="ciberseguridad">
                 <h3>Ciberseguridad</h3>
                     <dl>
                         <dt>Duración:</dt>
@@ -64,7 +88,7 @@
                     </dl>
                  <p> Aprende los conceptos básicos de la ciberseguridad y descubre cómo proteger equipos, redes y datos frente a amenazas digitales. El curso incluye buenas prácticas de seguridad, gestión de contraseñas, prevención de ataques y nociones básicas de respuesta ante incidentes.</p>
             </article>
-            <article>
+            <article id="sql-bases-datos">
                 <h3>SQL y bases de datos</h3>
                     <dl>
                         <dt>Duración:</dt>
@@ -74,7 +98,7 @@
                     </dl>
                  <p> En este curso te enseñaremos a crear, consultar y gestionar bases de datos mediante SQL. Trabajarás con tablas, relaciones, consultas...</p>
             </article>
-            <article>
+            <article id="linux">
                 <h3>Linux</h3>
                     <dl>
                         <dt>Duración:</dt>
@@ -84,7 +108,7 @@
                     </dl>
                  <p>Descubre los fundamentos de Linux y aprende a trabajar con Terminal, administrar usuarios, organizar archivos o configurar tareas básicas del sistema.</p>
             </article>
-            <article>
+            <article id="ia">
                 <h3>Introducción a la Inteligencia Artificial</h3>
                     <dl>
                         <dt>Duración:</dt>
@@ -119,7 +143,23 @@
     </aside>
 
     <footer>
-        <p>&copy; 2026 TecnoCampus Formación</p>
+        <section>
+            <h2>TecnoCampus Formación</h2>
+            <p>Formación tecnológica para tu futuro profesional.</p>
+        </section>
+        <section>
+            <h3>Contacto</h3>
+                <address>
+                    <p><strong>Dirección:</strong> Avenida de la Tecnología, 25, Pontevedra</p>
+                    <p><strong>Teléfono:</strong> 986 000 000</p>
+                    <p><strong>Correo:</strong> info@tecnocampusformacion.es</p>
+                </address>
+        </section>
+        <section>
+            <h3>Horario de atención</h3>
+            <p>Lunes a viernes, de 09:00 a 20:00</p>
+        </section>
+        <p class="copyright">&copy; 2026 TecnoCampus Formación</p>
     </footer>
 
 </body>

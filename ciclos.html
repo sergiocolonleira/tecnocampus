@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecnoCampus Formación | Ciclos FP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
@@ -15,12 +18,34 @@
         <p>Formación informática diferencial</p>
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="ciclos.html">Ciclos FP</a>
-        <a href="cursos.html">Cursos</a>
-        <a href="horarios.html">Horarios</a>
-        <a href="contacto.html">Contacto</a>
+      <nav>
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li class="desplegable">
+                <a href="ciclos.html">Ciclos formativos</a>
+                <ul class="submenu">
+                    <li><a href="ciclos.html#smr">SMR</a></li>
+                    <li><a href="ciclos.html#dam">DAM</a></li>
+                    <li><a href="ciclos.html#daw">DAW</a></li>
+                    <li><a href="ciclos.html#asir">ASIR</a></li>
+                </ul>
+            </li>
+            <li class="desplegable">
+                <a href="cursos.html">Cursos</a>
+                <ul class="submenu">
+                    <li><a href="cursos.html#html-css">HTML y CSS</a></li>
+                    <li><a href="cursos.html#python-java">Programación</a></li>
+                    <li><a href="cursos.html#ciberseguridad">Ciberseguridad</a></li>
+                    <li><a href="cursos.html#sql-bases-datos">Bases de datos</a></li>
+                    <li><a href="cursos.html#linux">Linux</a></li>
+                    <li><a href="cursos.html#inteligencia-artificial">Inteligencia artificial</a></li>
+                </ul>
+            </li>
+            <li><a href="horarios.html">Horarios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
     </nav>
 
 <main>
@@ -31,9 +56,9 @@
                 Da el primer paso hacia tu futuro en el sector IT. Consulta nuestros ciclos, compara sus contenidos y encuentra la formación que mejor se adapta a tus intereses.
             </p>
     </section>
-    <section>
+    <section class="oferta">
         <h2>Nuestra oferta formativa: Formación Profesional</h2>
-        <article>
+        <article id="smr">
             <h3>SMR | Sistemas Microinformáticos y Redes</h3>
             <dl>
                 <dt>Nivel:</dt>
@@ -41,7 +66,7 @@
                 <dt>Duración:</dt>
                 <dd>2 cursos académicos: 2.000 horas</dd>
                 <dt>Modalidad:</dt>
-                <dd>Presencial, online o semipresencial</dd>
+                <dd>Presencial y online</dd>
             </dl>
                 <p>SMR ofrece una formación práctica en montaje de ordenadores, sistemas operativos, redes, aplicaciones ofimáticas y soporte técnico.</p>
                 <h4>Salidas profesionales</h4>
@@ -53,7 +78,7 @@
                         <li>Técnico en mantenimiento de equipos y dispositivos periféricos</li>
                     </ul>
         </article>
-        <article>
+        <article id="dam">
             <h3>DAM | Desarrollo de Aplicaciones Multiplataforma</h3>
             <dl>
                 <dt>Nivel:</dt>
@@ -61,7 +86,7 @@
                 <dt>Duración:</dt>
                 <dd>2 cursos académicos: 2.000 horas</dd>
                 <dt>Modalidad:</dt>
-                <dd>Presencial, online o semipresencial</dd>
+                <dd>Presencial y online</dd>
             </dl>
                 <p>DAM te ofrece un aprendizaje aplicado en programación, bases de datos y desarrollo de software, capacitándote para acceder a múltiples perfiles profesionales dentro del mundo tecnológico.</p>
                 <h4>Salidas profesionales</h4>
@@ -73,7 +98,7 @@
                         <li>Programador en entornos empresariales</li>
                     </ul>
         </article>
-        <article>
+        <article id="daw">
             <h3>DAW | Desarrollo de Aplicaciones Web</h3>
             <dl>
                 <dt>Nivel:</dt>
@@ -81,7 +106,7 @@
                 <dt>Duración:</dt>
                 <dd>2 cursos académicos: 2.000 horas</dd>
                 <dt>Modalidad:</dt>
-                <dd>Presencial, online o semipresencial</dd>
+                <dd>Presencial y online</dd>
             </dl>
                 <p>DAW te formará para diseñar, programar y realizar el mantenimiento de páginas y aplicaciones web.</p>
                 <h4>Salidas profesionales</h4>
@@ -93,7 +118,7 @@
                         <li>Técnico en integración de bases de datos en aplicaciones web</li>
                     </ul>
         </article>
-          <article>
+          <article id="asir">
             <h3>ASIR | Administración de Sistemas Informáticos en Red</h3>
             <dl>
                 <dt>Nivel:</dt>
@@ -101,7 +126,7 @@
                 <dt>Duración:</dt>
                 <dd>2 cursos académicos: 2.000 horas</dd>
                 <dt>Modalidad:</dt>
-                <dd>Presencial, online o semipresencial</dd>
+                <dd>Presencial y online</dd>
             </dl>
                 <p>ASIR te preparará para instalar, configurar y administrar sistemas informáticos, servidores y redes.</p>
                 <h4>Salidas profesionales</h4>
@@ -172,7 +197,23 @@
     </aside>
 
     <footer>
-        <p>&copy; 2026 TecnoCampus Formación</p>
+        <section>
+            <h2>TecnoCampus Formación</h2>
+            <p>Formación tecnológica para tu futuro profesional.</p>
+        </section>
+        <section>
+            <h3>Contacto</h3>
+                <address>
+                    <p><strong>Dirección:</strong> Avenida de la Tecnología, 25, Pontevedra</p>
+                    <p><strong>Teléfono:</strong> 986 000 000</p>
+                    <p><strong>Correo:</strong> info@tecnocampusformacion.es</p>
+                </address>
+        </section>
+        <section>
+            <h3>Horario de atención</h3>
+            <p>Lunes a viernes, de 09:00 a 20:00</p>
+        </section>
+        <p class="copyright">&copy; 2026 TecnoCampus Formación</p>
     </footer>
 
 </body>
