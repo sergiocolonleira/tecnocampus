@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecnoCampus Formación | Contacto</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
     <header>
         <h1>TecnoCampus Formación</h1>
         <p>Formación tecnológica para tu futuro profesional</p>
     </header>
-      <nav>
-    <ul>
-        <li>
-            <a href="index.html">Inicio</a>
-        </li>
-        <li class="desplegable">
-            <a href="ciclos.html">Ciclos formativos</a>
-            <ul class="submenu">
-                <li><a href="ciclos.html#smr">SMR</a></li>
-                <li><a href="ciclos.html#dam">DAM</a></li>
-                <li><a href="ciclos.html#daw">DAW</a></li>
-                <li><a href="ciclos.html#asir">ASIR</a></li>
-            </ul>
-        </li>
-        <li class="desplegable">
-    <a href="cursos.html">Cursos</a>
-    <ul class="submenu">
-        <li><a href="cursos.html#html-css">HTML y CSS</a></li>
-        <li><a href="cursos.html#programacion">Programación</a></li>
-        <li><a href="cursos.html#ciberseguridad">Ciberseguridad</a></li>
-        <li><a href="cursos.html#bases-datos">Bases de datos</a></li>
-        <li><a href="cursos.html#linux">Linux</a></li>
-        <li><a href="cursos.html#inteligencia-artificial">Inteligencia artificial</a></li>
-    </ul>
-        <li><a href="horarios.html">Horarios</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-    </li>
-</nav>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li class="desplegable">
+                <a href="ciclos.html">Ciclos formativos</a>
+                <ul class="submenu">
+                    <li><a href="ciclos.html#smr">SMR</a></li>
+                    <li><a href="ciclos.html#dam">DAM</a></li>
+                    <li><a href="ciclos.html#daw">DAW</a></li>
+                    <li><a href="ciclos.html#asir">ASIR</a></li>
+                </ul>
+            </li>
+            <li class="desplegable">
+                <a href="cursos.html">Cursos</a>
+                <ul class="submenu">
+                    <li><a href="cursos.html#html-css">HTML y CSS</a></li>
+                    <li><a href="cursos.html#python-java">Programación</a></li>
+                    <li><a href="cursos.html#ciberseguridad">Ciberseguridad</a></li>
+                    <li><a href="cursos.html#sql-bases-datos">Bases de datos</a></li>
+                    <li><a href="cursos.html#linux">Linux</a></li>
+                    <li><a href="cursos.html#inteligencia-artificial">Inteligencia artificial</a></li>
+                </ul>
+            </li>
+            <li><a href="horarios.html">Horarios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
     <main>
         <section>
             <h2>Contacto</h2>
-            <p>Ponte en contacto con TecnoCampus Formación para resolver tus dudas sobre nuestros ciclos formativos, cursos, horarios, modalidades o procesos de matrícula.</p>
+            <p>Ponte en contacto con TecnoCampus Formación para resolver tus dudas sobre nuestros ciclos formativos,
+                cursos, horarios, modalidades o procesos de matrícula.</p>
         </section>
         <section>
             <h2>Datos de contacto</h2>
@@ -54,66 +58,210 @@
                 <p><strong>Dirección:</strong> Avenida de la Tecnología, 25, Pontevedra</p>
                 <p><strong>Teléfono:</strong> 986 000 000</p>
                 <p><strong>Correo electrónico:</strong> info@tecnocampusformacion.es</p>
-                <p><strong>Horario de atención:</strong> Lunes a viernes: 09:00 - 20:00. Sábados 10:00-14:00. Domingos y festivos cerrado.</p>
+                <p><strong>Horario de atención:</strong> Lunes a viernes: 09:00 - 20:00. Sábados 10:00-14:00. Domingos y
+                    festivos cerrado.</p>
+                <p><strong>Información sobre Formación Profesional:</strong>
+                    <a href="https://www.todofp.es/" target="_blank">Portal TodoFP</a>
+                </p>
             </address>
+
+
         </section>
         <section>
             <h2>Formulario de contacto</h2>
             <form action="#" method="post">
-                <p>
-                    <label for="nombre">Nombre y apellidos:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </p>
-                <p>
-                    <label for="correo">Correo electrónico:</label>
-                    <input type="email" id="correo" name="correo" required>
-                </p>
-                <p>
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono">
-                </p>
-                <p>
-                    <label for="consulta">Motivo de la consulta:</label>
-                    <select id="consulta" name="consulta" required>
-                        <option value="">Selecciona una opción</option>
-                        <option value="ciclos">Ciclos formativos</option>
-                        <option value="cursos">Cursos de especialización</option>
-                        <option value="horarios">Horarios y modalidades</option>
-                        <option value="matricula">Proceso de matrícula</option>
-                        <option value="otros">Otros</option>
-                    </select>
-                </p>
-                <p>
-                    <label for="modalidad">Modalidad de interés:</label>
-                    <select id="modalidad" name="modalidad">
-                        <option value="">Selecciona una modalidad</option>
-                        <option value="presencial">Presencial</option>
-                        <option value="online">Online</option>
-                    </select>
-                </p>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <p>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </p>
+                    <p>
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" name="apellidos" required>
+                    </p>
+                    <p>
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </p>
+                    <p>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </p>
+                    <p>
+                        <label for="localidad">Localidad:</label>
+                        <input type="text" id="localidad" name="localidad">
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Formación de interés</legend>
+                    <p>
+                        <label for="tipo-formacion">Tipo de formación:</label>
+                        <select id="tipo-formacion" name="tipo-formacion" required>
+                            <option value="">
+                                Selecciona una opción
+                            </option>
+                            <option value="ciclo">
+                                Ciclo formativo
+                            </option>
+                            <option value="curso">
+                                Curso
+                            </option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="programa">Programa de interés:</label>
+                        <select id="programa" name="programa">
+                            <option value="">
+                                Selecciona un programa
+                            </option>
+                            <optgroup label="Ciclos formativos">
+                                <option value="smr">
+                                    SMR
+                                </option>
+                                <option value="dam">
+                                    DAM
+                                </option>
+                                <option value="daw">
+                                    DAW
+                                </option>
+                                <option value="asir">
+                                    ASIR
+                                </option>
+                            </optgroup>
+                            <optgroup label="Cursos">
+                                <option value="html-css">
+                                    HTML y CSS
+                                </option>
+                                <option value="programacion">
+                                    Programación
+                                </option>
+                                <option value="ciberseguridad">
+                                    Ciberseguridad
+                                </option>
+                                <option value="bases-datos">
+                                    Bases de datos
+                                </option>
+                                <option value="linux">
+                                    Linux
+                                </option>
+                                <option value="ia">
+                                    Inteligencia artificial
+                                </option>
+                            </optgroup>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="modalidad">Modalidad de interés:</label>
+                        <select id="modalidad" name="modalidad">
+                            <option value="">
+                                Selecciona una modalidad
+                            </option>
+                            <option value="presencial">
+                                Presencial
+                            </option>
+                            <option value="online">
+                                Online
+                            </option>
+                            <option value="semipresencial">
+                                Semipresencial
+                            </option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="turno">Turno preferido:</label>
+                        <select id="turno" name="turno">
+                            <option value="">
+                                Selecciona un turno
+                            </option>
+                            <option value="manana">
+                                Mañana
+                            </option>
+                            <option value="tarde">
+                                Tarde
+                            </option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="nivel">Nivel previo:</label>
+                        <select id="nivel" name="nivel">
+                            <option value="">
+                                Selecciona tu nivel
+                            </option>
+                            <option value="sin-conocimientos">
+                                Sin conocimientos previos
+                            </option>
+                            <option value="basico">
+                                Básico
+                            </option>
+                            <option value="medio">
+                                Intermedio
+                            </option>
+                            <option value="avanzado">
+                                Avanzado
+                            </option>
+                        </select>
+                    </p>
+                </fieldset>
+                <fieldset>
+
+                    <legend>Preferencias de contacto</legend>
+                    <p>
+                        <input type="radio" id="contacto-email" name="medio-contacto" value="email" required>
+                        <label for="contacto-email">
+                            Correo electrónico
+                        </label>
+                    </p>
+                    <p>
+                        <input type="radio" id="contacto-telefono" name="medio-contacto" value="telefono">
+                        <label for="contacto-telefono">
+                            Teléfono
+                        </label>
+                    </p>
+                    <p>
+                        <label for="franja">Franja horaria de contacto:</label>
+                        <select id="franja" name="franja">
+                            <option value="">
+                                Selecciona una franja
+                            </option>
+                            <option value="manana">
+                                09:00 - 13:00
+                            </option>
+                            <option value="tarde">
+                                13:00 - 17:00
+                            </option>
+                            <option value="ultima-tarde">
+                                17:00 - 20:00
+                            </option>
+                        </select>
+                    </p>
+                </fieldset>
                 <p>
                     <label for="mensaje">Mensaje:</label>
-                    <textarea
-                        id="mensaje"
-                        name="mensaje"
-                        rows="8"
-                        cols="40"
-                        required></textarea>
+                    <textarea id="mensaje" name="mensaje" rows="8" cols="40" required></textarea>
                 </p>
                 <p>
-                    <input
-                        type="checkbox"
-                        id="privacidad"
-                        name="privacidad"
-                        required>
+                    <input type="checkbox" id="privacidad" name="privacidad" required>
+
                     <label for="privacidad">
-                        Acepto la política de privacidad.
+                        Acepto la
+                        <a href="privacidad.html">
+                            política de privacidad
+                        </a>.
                     </label>
                 </p>
+
+
                 <p>
-                    <button type="submit">Enviar consulta</button>
-                    <button type="reset">Borrar formulario</button>
+                    <button type="submit">
+                        Enviar consulta
+                    </button>
+
+                    <button type="reset">
+                        Borrar formulario
+                    </button>
                 </p>
+
             </form>
         </section>
     </main>
@@ -134,16 +282,19 @@
         </section>
         <section>
             <h3>Contacto</h3>
-                <address>
-                    <p><strong>Dirección:</strong> Avenida de la Tecnología, 25, Pontevedra</p>
-                    <p><strong>Teléfono:</strong> 986 000 000</p>
-                    <p><strong>Correo:</strong> info@tecnocampusformacion.es</p>
-                </address>
+            <address>
+                <p><strong>Dirección:</strong> Avenida de la Tecnología, 25, Pontevedra</p>
+                <p><strong>Teléfono:</strong> 986 000 000</p>
+                <p><strong>Correo:</strong> info@tecnocampusformacion.es</p>
+            </address>
         </section>
         <section>
             <h3>Horario de atención</h3>
             <p>Lunes a viernes, de 09:00 a 20:00</p>
         </section>
+        <p class="enlaces-legales">
+            <a href="privacidad.html">Politica de privacidad</a>
+        </p>
         <p class="copyright">&copy; 2026 TecnoCampus Formación</p>
     </footer>
 

@@ -7,7 +7,8 @@
     <title>TecnoCampus Formación | Horarios</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
@@ -18,8 +19,7 @@
         <p>Formación tecnológica para tu futuro profesional</p>
     </header>
 
-       <nav>
-    <ul>
+    <nav>
         <li>
             <a href="index.html">Inicio</a>
         </li>
@@ -33,20 +33,20 @@
             </ul>
         </li>
         <li class="desplegable">
-    <a href="cursos.html">Cursos</a>
-    <ul class="submenu">
-        <li><a href="cursos.html#html-css">HTML y CSS</a></li>
-        <li><a href="cursos.html#programacion">Programación</a></li>
-        <li><a href="cursos.html#ciberseguridad">Ciberseguridad</a></li>
-        <li><a href="cursos.html#bases-datos">Bases de datos</a></li>
-        <li><a href="cursos.html#linux">Linux</a></li>
-        <li><a href="cursos.html#inteligencia-artificial">Inteligencia artificial</a></li>
-    </ul>
+            <a href="cursos.html">Cursos</a>
+            <ul class="submenu">
+                <li><a href="cursos.html#html-css">HTML y CSS</a></li>
+                <li><a href="cursos.html#python-java">Programación</a></li>
+                <li><a href="cursos.html#ciberseguridad">Ciberseguridad</a></li>
+                <li><a href="cursos.html#bases-datos">Bases de datos</a></li>
+                <li><a href="cursos.html#linux">Linux</a></li>
+                <li><a href="cursos.html#inteligencia-artificial">Inteligencia artificial</a></li>
+            </ul>
+        </li>
         <li><a href="horarios.html">Horarios</a></li>
         <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-    </li>
-</nav>
+        </ul>
+    </nav>
     <main>
 
         <section>
@@ -66,7 +66,7 @@
             <h2>Horario semanal</h2>
 
             <table>
-                <caption>Horario semanal de los ciclos formativos en modalidad presencial y online.</caption>
+                <caption>Horario semanal de los ciclos formativos en las diferentes modalidades.</caption>
                 <thead>
                     <tr>
                         <th>Ciclo formativo</th>
@@ -76,54 +76,94 @@
                     </tr>
                 </thead>
                 <tbody>
+
                     <tr>
                         <td>SMR</td>
                         <td>Presencial</td>
                         <td>Lunes a viernes</td>
                         <td>08:30 - 14:30</td>
                     </tr>
+
                     <tr>
                         <td>SMR</td>
                         <td>Online</td>
                         <td>Lunes y miércoles</td>
                         <td>18:00 - 20:00</td>
                     </tr>
+
+                    <tr>
+                        <td>SMR</td>
+                        <td>Semipresencial</td>
+                        <td>Viernes presencial + seguimiento online</td>
+                        <td>16:00 - 20:00</td>
+                    </tr>
+
+
                     <tr>
                         <td>DAM</td>
                         <td>Presencial</td>
                         <td>Lunes a viernes</td>
                         <td>08:30 - 14:30</td>
                     </tr>
+
                     <tr>
                         <td>DAM</td>
                         <td>Online</td>
                         <td>Martes y jueves</td>
                         <td>18:00 - 20:00</td>
                     </tr>
+
+                    <tr>
+                        <td>DAM</td>
+                        <td>Semipresencial</td>
+                        <td>Viernes presencial + seguimiento online</td>
+                        <td>17:00 - 21:00</td>
+                    </tr>
+
+
                     <tr>
                         <td>DAW</td>
                         <td>Presencial</td>
                         <td>Lunes a viernes</td>
                         <td>15:30 - 21:30</td>
                     </tr>
+
                     <tr>
                         <td>DAW</td>
                         <td>Online</td>
                         <td>Lunes y miércoles</td>
                         <td>19:00 - 21:00</td>
                     </tr>
+
+                    <tr>
+                        <td>DAW</td>
+                        <td>Semipresencial</td>
+                        <td>Sábado presencial + seguimiento online</td>
+                        <td>09:00 - 13:00</td>
+                    </tr>
+
+
                     <tr>
                         <td>ASIR</td>
                         <td>Presencial</td>
                         <td>Lunes a viernes</td>
                         <td>15:30 - 21:30</td>
                     </tr>
+
                     <tr>
                         <td>ASIR</td>
                         <td>Online</td>
                         <td>Martes y jueves</td>
                         <td>19:00 - 21:00</td>
                     </tr>
+
+                    <tr>
+                        <td>ASIR</td>
+                        <td>Semipresencial</td>
+                        <td>Sábado presencial + seguimiento online</td>
+                        <td>09:00 - 13:00</td>
+                    </tr>
+
                 </tbody>
             </table>
         </section>
@@ -132,17 +172,26 @@
             <h2>Modalidades disponibles</h2>
             <article>
                 <h3>Presencial</h3>
-                <p>El formato presencial está pensado para quienes disponen de disponibilidad horaria total. Se desarrollará en nuestro Centro Tecnológico TecnoCampus con atención directa del profesorado. Ideal para quienes prefieren una rutina de estudio fija y un contacto diario con sus compañeros.</p>
+                <p>El formato presencial está pensado para quienes disponen de disponibilidad horaria total. Se
+                    desarrollará en nuestro Centro Tecnológico TecnoCampus con atención directa del profesorado. Ideal
+                    para quienes prefieren una rutina de estudio fija y un contacto diario con sus compañeros.</p>
             </article>
             <article>
                 <h3>Online</h3>
-                <p>Pensado para quienes tienen obligaciones y necesitan una disponibilidad de estudio más flexible. Ofrece el mismo contenido y atención que las clases presenciales, pero se puede seguir desde cualquier lugar.</p>
+                <p>Pensado para quienes tienen obligaciones y necesitan una disponibilidad de estudio más flexible.
+                    Ofrece el mismo contenido y atención que las clases presenciales, pero se puede seguir desde
+                    cualquier lugar.</p>
+            </article>
+            <article>
+                <h3>Semipresencial</h3>
+                <p>Diseñada para aquellos que quieren combinar las ventajas del trato presencial con el estudio
+                    flexible. Combina sesiones presenciales y seguimiento online.</p>
             </article>
         </section>
 
         <section>
             <h2>Normas de asistencia</h2>
-            <h3>Modalidad presencial</h3>
+            <h3>Modalidad presencial y semipresencial</h3>
             <ul>
                 <li>Asistencia mínima: el alumnado deberá asistir al 80% de las clases.</li>
                 <li>Participar en las actividades y entregar las tareas en tiempo y forma.</li>
@@ -151,7 +200,8 @@
             </ul>
             <h3>Modalidad online</h3>
             <ul>
-                <li>Mantener la cámara activa siempre que el profesor lo requiera; el micrófono debe permanecer apagado si no se está interviniendo.</li>
+                <li>Mantener la cámara activa siempre que el profesor lo requiera; el micrófono debe permanecer apagado
+                    si no se está interviniendo.</li>
                 <li>Disponer de un entorno adecuado para la realización de la clase.</li>
                 <li>Usar el chat del aula únicamente con motivos académicos.</li>
                 <li>Evitar realizar otras actividades durante las sesiones en directo.</li>
@@ -160,18 +210,19 @@
     </main>
 
     <aside>
-         <h2>Atención al alumnado</h2>
-            <dl>
-                <dt>Horario de secretaría</dt>
-                <dd>De lunes a viernes, de 09:00 a 14:00 y de 16:00 a 18:00.</dd>
-                <dt>Tutorías</dt>
-                <dd>El alumnado podrá solicitar tutorías individuales con el profesorado mediante el aula virtual o por correo electrónico.</dd>
-                <dt>Atención telefónica</dt>
-                <dd>Lunes a viernes: 09:00 - 20:00. 
-                    Sábados 10:00-14:00. 
-                    Domingos y festivos cerrado.
-                </dd>
-            </dl>
+        <h2>Atención al alumnado</h2>
+        <dl>
+            <dt>Horario de secretaría</dt>
+            <dd>De lunes a viernes, de 09:00 a 14:00 y de 16:00 a 18:00.</dd>
+            <dt>Tutorías</dt>
+            <dd>El alumnado podrá solicitar tutorías individuales con el profesorado mediante el aula virtual o por
+                correo electrónico.</dd>
+            <dt>Atención telefónica</dt>
+            <dd>Lunes a viernes: 09:00 - 20:00.
+                Sábados 10:00-14:00.
+                Domingos y festivos cerrado.
+            </dd>
+        </dl>
     </aside>
 
     <footer>
@@ -181,16 +232,19 @@
         </section>
         <section>
             <h3>Contacto</h3>
-                <address>
-                    <p><strong>Dirección:</strong> Avenida de la Tecnología, 25, Pontevedra</p>
-                    <p><strong>Teléfono:</strong> 986 000 000</p>
-                    <p><strong>Correo:</strong> info@tecnocampusformacion.es</p>
-                </address>
+            <address>
+                <p><strong>Dirección:</strong> Avenida de la Tecnología, 25, Pontevedra</p>
+                <p><strong>Teléfono:</strong> 986 000 000</p>
+                <p><strong>Correo:</strong> info@tecnocampusformacion.es</p>
+            </address>
         </section>
         <section>
             <h3>Horario de atención</h3>
             <p>Lunes a viernes, de 09:00 a 20:00</p>
         </section>
+        <p class="enlaces-legales">
+            <a href="privacidad.html">Politica de privacidad</a>
+        </p>
         <p class="copyright">&copy; 2026 TecnoCampus Formación</p>
     </footer>
 
